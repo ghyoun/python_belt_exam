@@ -78,9 +78,9 @@ WSGI_APPLICATION = 'belt_exam2.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'product_catalog',
-        'USER': 'postgres_username',
-        'PASSWORD': 'postgres_password',
+        'NAME': 'friends_list',
+        'USER': 'ghyoun',
+        'PASSWORD': 'abc123',
         'HOST': 'localhost',
         'PORT': '',
     }
