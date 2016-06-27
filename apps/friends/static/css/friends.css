@@ -1,0 +1,12 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css");
+
+#friends_table {
+    margin-bottom: 25px;
+}
+
+.inline {
+    display: inline;
+    width: 100px !important;
+    margin-right: 20px;
+    margin-left: 20px;
+}

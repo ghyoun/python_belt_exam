@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quotes</title>
+    {% load staticfiles %}
+    <link rel="stylesheet" href="{% static 'css/profile.css' %}">
+    <link rel="shortcut icon" type="image/png" href="{{STATIC_URL}}/favicon"/>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <div class='container'>
+        <div class='row'>
+            <div id='dash' class='col-sm-1 col-sm-offset-9'>
+                <h5><a href='/friends'>Home</a></h5>
+            </div>
+            <div class='col-sm-1'>
+                <h5><a href='/logout'>Logout</a></h5>
+            </div>
+        </div>
+        <h3>{{user.alias}}'s Profile</h3>
+        <h4>Name: {{user.name}}</h4>
+        <h4>Email: {{user.email}}</h4>
+    </div>
+</body>
+</html>
